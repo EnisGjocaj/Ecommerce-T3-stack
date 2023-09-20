@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+}
+
+.active-dropdown {
+	  position: absolute;
+	  top: 100%; 
+	  right: 0; 
+	  z-index: 10; 
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
